@@ -1,0 +1,99 @@
+.loader {
+  border: 16px solid black;
+  border-top: 16px solid lightskyblue;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  transform: translate(-50%,-50%);
+}
+header {
+  align-items: center;
+  margin: 18rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Brush Script MT',cursive;
+  font-size: 30px;
+}
+button{
+  cursor: pointer;
+  outline: 0;
+  color: aliceblue;
+  background-color: darkgoldenrod;
+  border-color: dodgerblue;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 20px;
+  border-radius: .25rem;
+}
+button:hover {
+  color: aliceblue;
+  background-color: chocolate;
+  border-color: black;
+}
+.container {
+  padding: 40px 20px 20px 20px;
+  width: 50%;
+  margin:auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.card_item {
+  padding: 15px 30px;
+  width:25%;
+  text-align: center;
+}
+.container .card_item:hover {
+  transform: scale(1.02);
+  transition: transform .3s;
+  cursor: pointer;
+}
+.container .card_inner {
+  background: snow;
+  border-radius: 10px;
+  padding: 35px 20px;
+  min-width: 225px;
+  min-height: 325px;
+  max-height: 200px;
+  width: 70%;
+  box-shadow: 5px 5px 10px 2px lightgrey;
+}
+.container .card_item img{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  align-items: center;
+  transition: transform .2s;
+}
+.container .card_item .username {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container .card_item .email {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 5px 0 10px;
+  word-wrap: break-word;
+  color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body{
+  background-image: url("https://w0.peakpx.com/wallpaper/51/290/HD-wallpaper-white-floral-pattern-white-vintage-background-floral-patterns-vintage-backgrounds-white-retro-backgrounds-floral-vintage-pattern-white-floral-backgrounds-thumbnail.jpg");
+}
